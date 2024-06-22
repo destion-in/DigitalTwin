@@ -1,0 +1,43 @@
+name: digitaltwin
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animate_do: ^3.1.2
+  shared_preferences: ^2.0.13
+  cupertino_icons: ^1.0.6
+  flutter_blue_plus: ^1.1.0
+  permission_handler: ^10.0.0
+  fluttertoast: ^8.0.9
+  fl_chart:
+  flutter_svg:
+  intl:
+  get: ^4.3.8
+  navigation_view: ^1.0.6
+  iconly: ^1.0.1
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.0
+  flex_color_scheme: ^7.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/step-1.png
+    - assets/images/step-2.png
+    - assets/images/step-3.png
+    - assets/icons/bloodcell.svg
+    - assets/icons/heart-rate.svg
+    - assets/icons/temp.svg
+    - assets/icons/cal.svg
